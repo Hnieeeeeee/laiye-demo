@@ -148,3 +148,58 @@ h4,.h4{font-size:22px;line-height:1.3;font-weight:600;margin:0 0 8px}
   .slide{position:relative;opacity:1!important;transform:none!important;page-break-after:always;height:100vh}
   .deck-header,.deck-footer,.progress-bar,.notes-overlay,.overview{display:none!important}
 }
+
+/* ==================== Mobile Responsive ==================== */
+
+/* Tablet: 768px - 1024px */
+@media (max-width: 1024px) {
+  .slide { padding: 48px 56px !important; }
+  .tpl-pitch-deck .slide { padding: 56px 64px !important; }
+  h1, .h1 { font-size: 52px !important; }
+  h2, .h2 { font-size: 40px !important; }
+  .tpl-pitch-deck .h1 { font-size: 58px !important; }
+  .tpl-pitch-deck .h2 { font-size: 46px !important; }
+  .lede { font-size: 18px !important; }
+  .metric .n { font-size: 52px !important; }
+  .g3 { grid-template-columns: repeat(2, 1fr) !important; }
+}
+
+/* Mobile landscape: 481px - 768px */
+@media (max-width: 768px) {
+  .slide { padding: 32px 36px !important; }
+  .tpl-pitch-deck .slide { padding: 36px 40px !important; }
+  h1, .h1 { font-size: 38px !important; line-height: 1.1 !important; }
+  h2, .h2 { font-size: 30px !important; line-height: 1.15 !important; }
+  .tpl-pitch-deck .h1 { font-size: 42px !important; }
+  .tpl-pitch-deck .h2 { font-size: 34px !important; }
+  .lede { font-size: 16px !important; max-width: 100% !important; }
+  .kicker { font-size: 11px !important; }
+  .card { padding: 18px 20px !important; }
+  .metric .n { font-size: 40px !important; }
+  .metric .l { font-size: 13px !important; }
+  .num-tag { font-size: 10px !important; }
+  .g2, .g3 { grid-template-columns: 1fr !important; }
+  .grid { gap: 16px !important; }
+  .ask-box { flex-wrap: wrap !important; }
+}
+
+/* Mobile portrait: ≤ 480px */
+@media (max-width: 480px) {
+  .slide { padding: 20px 20px !important; }
+  .tpl-pitch-deck .slide { padding: 24px 24px !important; }
+  h1, .h1 { font-size: 28px !important; line-height: 1.1 !important; }
+  h2, .h2 { font-size: 22px !important; line-height: 1.2 !important; }
+  .tpl-pitch-deck .h1 { font-size: 30px !important; }
+  .tpl-pitch-deck .h2 { font-size: 24px !important; }
+  .lede { font-size: 14px !important; }
+  .kicker { font-size: 10px !important; }
+  .card { padding: 14px 16px !important; border-radius: 12px !important; }
+  .card h4 { font-size: 14px !important; }
+  .card .dim { font-size: 12px !important; }
+  .metric .n { font-size: 32px !important; }
+  .metric .l { font-size: 12px !important; }
+  .tag { font-size: 11px !important; padding: 3px 8px !important; }
+  .g2, .g3, .grid { grid-template-columns: 1fr !important; gap: 12px !important; }
+  .ask-box { flex-wrap: wrap !important; gap: 8px !important; }
+  .pill { font-size: 10px !important; }
+}
